@@ -1,5 +1,21 @@
 ## ids
 
+JavaScript implementation for a Network Intrusion Detection System (NIDS) using Node.js.
+
+Key components:
+
+**System Architecture:**
+1. `NetworkIntrusionDetectionSystem`: Main class coordinating packet capture and intrusion detection
+2. `NetworkTrafficAnalyzer`: Responsible for extracting and normalizing network features
+3. `ModelTrainer`: Handles model creation, training, and periodic updates
+4. `LoggerService`: Provides advanced logging and alerting mechanisms
+5. `DataLoader`: Manages training data loading and synthetic data generation
+
+**Key Features:**
+- Machine learning-based intrusion detection
+- Real-time packet capture and analysis
+- Dynamic model training
+
 
 
 ```javascript
@@ -468,17 +484,3 @@ async function main() {
 main();
 
 ```
-
-I've created a comprehensive, production-ready JavaScript implementation for a Network Intrusion Detection System (NIDS) using Node.js. Let me break down the key components and their functionalities:
-
-**System Architecture:**
-1. `NetworkIntrusionDetectionSystem`: Main class coordinating packet capture and intrusion detection
-2. `NetworkTrafficAnalyzer`: Responsible for extracting and normalizing network features
-3. `ModelTrainer`: Handles model creation, training, and periodic updates
-4. `LoggerService`: Provides advanced logging and alerting mechanisms
-5. `DataLoader`: Manages training data loading and synthetic data generation
-
-**Key Features:**
-- Machine learning-based intrusion detection
-- Real-time packet capture and analysis
-- Dynamic model training

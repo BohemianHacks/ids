@@ -2,7 +2,7 @@
 
 JavaScript implementation for a Network Intrusion Detection System (NIDS) using Node.js.
 
-This code you provided implements a Network Intrusion Detection System (NIDS) using Node.js and TensorFlow.js. Here's a breakdown of the key components:
+This code implements a Network Intrusion Detection System (NIDS) using Node.js and TensorFlow.js. Here's a breakdown of the key components:
 
 **System Architecture:**
 
